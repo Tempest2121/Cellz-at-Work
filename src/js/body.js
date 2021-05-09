@@ -1,0 +1,4 @@
+class Body {
+  constructor() {}
+  getState() {}
+}

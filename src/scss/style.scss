@@ -1,0 +1,16 @@
+@import "_global";
+@import "_variables.scss";
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+input {
+  text-align: center;
+  font-size: 300%;
+}

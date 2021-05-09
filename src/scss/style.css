@@ -1,0 +1,35 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.3;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f4ea;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+input {
+  text-align: center;
+  font-size: 300%;
+}
+/*# sourceMappingURL=style.css.map */
