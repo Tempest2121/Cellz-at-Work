@@ -27,7 +27,7 @@ class Form {
     this.submit.mousePressed(() => {
       console.log("Cell has succesfully entered the Body");
       form.hide();
-      gameState = "play";
+      gameState = 1;
     });
   }
 }

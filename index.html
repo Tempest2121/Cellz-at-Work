@@ -22,6 +22,28 @@
     <script src="src/lib/p5.play.js"></script>
   </head>
   <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCKS6U9a1CSoXcO5En6Nael-V8h_vSZlm0",
+        authDomain: "cellz-at-work.firebaseapp.com",
+        databaseURL: "https://cellz-at-work-default-rtdb.firebaseio.com",
+        projectId: "cellz-at-work",
+        storageBucket: "cellz-at-work.appspot.com",
+        messagingSenderId: "623190088955",
+        appId: "1:623190088955:web:2675f30b45388d9264245e",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
     <!-- Javascript Objects  -->
     <script src="src/js/form.js"></script>
     <script src="src/js/cell.js"></script>
